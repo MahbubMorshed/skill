@@ -51,7 +51,7 @@ export default function Container() {
         <pointLight position={[0, -5, 5]} intensity={0.5} />
         <directionalLight position={[0, -5, 0]} color="red" intensity={2} />
         <Light />
-        {/* <Environment preset="warehouse" /> */}
+        <Environment preset="warehouse" />
         <Rig />
       </Suspense>
 
